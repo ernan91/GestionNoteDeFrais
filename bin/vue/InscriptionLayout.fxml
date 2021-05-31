@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="350.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="controller.InscriptionController">
+   <children>
+      <Button layoutX="116.0" layoutY="440.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="S'inscrire" />
+      <TextField fx:id="numSText" layoutX="187.0" layoutY="338.0" />
+      <TextField fx:id="numText" layoutX="187.0" layoutY="191.0" />
+      <TextField fx:id="prenomText" layoutX="187.0" layoutY="74.0" />
+      <TextField fx:id="posteText" layoutX="187.0" layoutY="262.0" />
+      <TextField fx:id="salaireText" layoutX="187.0" layoutY="301.0" />
+      <TextField fx:id="nomText" layoutX="187.0" layoutY="35.0" />
+      <DatePicker fx:id="DateNText" layoutX="162.0" layoutY="155.0" />
+      <DatePicker fx:id="DateEText" layoutX="162.0" layoutY="228.0" />
+      <Label layoutX="146.0" layoutY="39.0" text="Nom :" />
+      <Label layoutX="131.0" layoutY="78.0" text="Prénom :" />
+      <Label layoutX="56.0" layoutY="159.0" text="Date de naissance :" />
+      <Label layoutX="56.0" layoutY="195.0" text="Numéro de Téléphone :" />
+      <Label layoutX="62.0" layoutY="232.0" text="Date d'embauche :" />
+      <Label layoutX="144.0" layoutY="266.0" text="Poste :" />
+      <Label layoutX="141.0" layoutY="305.0" text="Salaire :" />
+      <Label layoutX="90.0" layoutY="342.0" text="Numéro de sécu :" />
+      <Label layoutX="155.0" layoutY="384.0" text="Rôle :" />
+      <Label layoutX="35.0" layoutY="334.0" text="Label" />
+      <Label layoutX="105.0" layoutY="118.0" text="Mot de passe :" />
+      <TextField fx:id="mdpText" layoutX="187.0" layoutY="114.0" />
+      <Label layoutX="116.0" layoutY="5.0" text="Formulaire d'inscription">
+         <font>
+            <Font name="Liberation Serif" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="186.0" layoutY="380.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
